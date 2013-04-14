@@ -3,12 +3,56 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
+              android:layout_margin="5dp"
     >
 
     <TextView
+        android:id="@+id/txtCaption"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World, MainActivity"
-        />
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Title"/>
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Message"/>
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="4"/>
+
+    <Button
+        android:id="@+id/btnOption1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1"/>
+
+    <Button
+        android:id="@+id/btnOption2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 2"/>
+
+    <Button
+        android:id="@+id/btnOption3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 3"/>
+
+    <Button
+        android:id="@+id/btnOption4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 4"/>
 </LinearLayout>
 
